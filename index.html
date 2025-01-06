@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<title>GTD</title>
+		<link rel="stylesheet" href="/GTD/resource/css/fonts/font.css">
+		<link rel="stylesheet" href="/GTD/resource/css/com/slick.css">
+ 		<link rel="stylesheet" href="/GTD/resource/css/com/swiper.min.css">
+		<link rel="stylesheet" href="/GTD/resource/css/com/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="/GTD/resource/css/com/reset.css">
+		<link rel="stylesheet" href="/GTD/resource/css/com/style_sol.css">
+		<link rel="stylesheet" href="/GTD/resource/css/com/common_sol.css">
+
+		<link rel="shortcut icon" href="/GTD/resource/images/favicon_16.ico">
+		<link rel="shortcut icon" href="/GTD/resource/images/favicon_32.ico">
+		<link rel="shortcut icon" href="/GTD/resource/images/favicon_64.ico">
+
+		<link rel="stylesheet" href="resource/css/pages/main_sol.css">
+		
+		<script src="/GTD/resource/js/jquery/jquery-1.12.4.min.js"></script>
+		<script defer src="/GTD/resource/js/jquery/slick.min.js"></script>
+		<script defer src="/GTD/resource/js/jquery/jquery.mCustomScrollbar.js"></script>
+		<script defer src="/GTD/resource/js/jquery/swiper.min.js"></script>
+		
+		<script defer src="/GTD/resource/js/com/common.js"></script>
+		<script src="resource/js/pages/main.js"></script>		
+	</head>
+
+<body class="type2">
+	<!-- #skipNav -->
+	<div id="skipnavi">
+		<a href="#container">본문 바로가기</a>
+		<a href="#header">글로벌 네비게이션 바로가기</a>
+	</div>
+	<!-- #wrap -->
+	<div id="wrap">
+		<header id="header">
+			<div class="inner_sol clear">
+				<h1 class="header_logo"><a href="/GTD/index.jsp" title="메인으로 이동">로고</a></h1>
+
+				<div class="gnb_wrap">
+					<ul class="clear">
+						<li class="gnb_depth1">
+							<a href="javasctipt:;">BRAND</a>
+							<ul class="gnb_depth2">
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/brand/b_intro.jsp">BRAND Intro</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/brand/history.jsp">History</a></li>
+								<!--<li><a href="javascript:;">Concept</a></li>-->
+							</ul>
+						</li>
+						<li class="gnb_depth1">
+							<a href="javasctipt:;">FITTING</a>
+							<ul class="gnb_depth2">
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">Driver</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_wood.jsp">Wood</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_iron.jsp">Iron</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_wedge.jsp">Wedge</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_putter.jsp">Putter</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_shaft.jsp">Shaft 특주</a></li>
+							</ul>
+						</li>
+						<li class="gnb_depth1">
+							<a href="javasctipt:;">CLUB</a>
+							<ul class="gnb_depth2">
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_driver.jsp">Driver</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_wood.jsp">Wood</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_iron.jsp">Iron</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_wedge.jsp">Wedge</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_putter.jsp">Putter</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_shaft.jsp">Shaft 특주</a></li>
+							</ul>
+						</li>
+						<li class="gnb_depth1">
+							<a href="javasctipt:;">ACCESSORIES</a>
+							<ul class="gnb_depth2">
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_acc_bag.jsp">BAG</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_acc_cover.jsp">CLUB COVER</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_acc_acc.jsp">ACC</a></li>
+							</ul>
+						</li>
+						<li class="gnb_depth1">
+							<a href="javasctipt:;">SERVICE</a>
+							<ul class="gnb_depth2">
+								<li><a href="javascript:;">EVENT</a></li>
+								<li><a href="javascript:;">NEWS</a></li>
+								<li><a href="javascript:;">FAQ</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_contact.jsp">CONTACT</a></li>
+								<!--<li><a href="javascript:;">ABOUT</a></li>-->
+								<li><a href="javascript:;">C/S</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_shop.jsp">공식대리점</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_apply.jsp">시연 신청</a></li>
+							</ul>
+						</li>
+						<li class="gnb_depth1">
+							<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_register.jsp">정품등록</a>
+						</li>
+					</ul>
+				</div>
+
+				<a href="#" class="btn_menu">
+					<span class="line_menu line_menu_top"></span>
+					<span class="line_menu line_menu_mid"></span>
+					<span class="line_menu line_menu_bottom"></span>
+					<span class="line_menu line_menu_caption">전체메뉴</span>
+				</a>
+				<ul class="util">
+					<li><a href="javascript:;" class="util_login">로그인</a></li>
+					<li><a href="javascript:;" class="util_mypage">마이페이지</a></li>
+					<li><a href="javascript:;" class="util_cart">카트</a></li>
+				</ul>
+				<!--end : util -->
+			</div>
+			<!--end : inner_sol -->
+			<div class="header_nav_wrap">
+				<ul class="header_nav_top">
+					<li class="util_login"><a href="/member/login.salted">로그인</a></li>
+					<li><a href="/shop/cart.salted">카트</a></li>
+				</ul>
+				<ul class="header_nav">
+					<li>
+						<a href="javascript:"><span class="num">01</span><span class="tit">BRAND</span></a>
+						<ul class="depth02">
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/brand/b_intro.jsp">Brand Intro</a></li>
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/brand/history.jsp">History</a></li>
+							<!--<li><a href="javascript:;">Concept</a></li>-->
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:"><span class="num">02</span><span class="tit">FITTING</span></a>
+						<ul class="depth02">
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">Driver</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_wood.jsp">Wood</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_iron.jsp">Iron</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_wedge.jsp">Wedge</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_putter.jsp">Putter</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_shaft.jsp">Shaft 특주</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:"><span class="num">03</span><span class="tit">CLUB</span></a>
+						<ul class="depth02">
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_driver.jsp">Driver</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_wood.jsp">Wood</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_iron.jsp">Iron</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_wedge.jsp">Wedge</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_putter.jsp">Putter</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_shaft.jsp">Shaft 특주</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;"><span class="num">04</span><span class="tit">ACC</span></a>
+						<ul class="depth02">
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_acc_bag.jsp">BAG</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_acc_cover.jsp">CLUB COVER</a></li>
+								<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_acc_acc.jsp">ACC</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;"><span class="num">05</span><span class="tit">SERVICE</span></a>
+						<ul class="depth02">
+							<li><a href="javascript:;">Event</a></li>
+							<li><a href="javascript:;">News</a></li>
+							<li><a href="javascript:;">FAQ</a></li>
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_contact.jsp">Contact</a></li>
+							<!--<li><a href="javascript:;">About</a></li>-->
+							<li><a href="javascript:;">C/S</a></li>
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_shop.jsp">공식대리점</a></li>
+							<li><a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_apply.jsp">시연 신청</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_register.jsp"><span class="num">06</span><span class="tit">정품등록</span></a>
+					</li>
+				</ul>	
+			</div>
+			<!--end : header_nav_wrap -->
+		</header>
+			<!-- #container -->
+			<div id="container" class="main">
+				<h2 id="contentAnchor">콘텐츠 영역</h2>
+				
+				<div class="section section01 sec_on">
+					<div class="main_banner_wrap">
+						<ul class="main_banner">
+							<li class="mb_item01">
+								<div class="inner_sol">
+									<div class="textbox">
+										<p class="tit mov_spd01">트리플 티탄 드라이버<span class="sub">의 시작</span></p>
+										<a class="btn btn_moreview mov_spd02" href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_shaft.jsp"><span>쇼핑하기</span></a>
+									</div>
+								</div>
+							</li>
+							<li class="mb_item01">
+								<div class="inner_sol">
+									<div class="textbox">
+										<p class="tit mov_spd01">트리플 티탄 드라이버<span class="sub">의 시작</span></p>
+										<a class="btn btn_moreview mov_spd02" href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_shaft.jsp"><span>쇼핑하기</span></a>
+									</div>
+								</div>
+							</li>
+							<li class="mb_item01">
+								<div class="inner_sol">
+									<div class="textbox">
+										<p class="tit mov_spd01">트리플 티탄 드라이버<span class="sub">의 시작</span></p>
+										<a class="btn btn_moreview mov_spd02" href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_fitting_shaft.jsp"><span>쇼핑하기</span></a>
+									</div>
+								</div>
+							</li>
+							<div class="inner_sol">
+								<div class="mv_dots_outer"></div>
+							</div>
+						</ul>
+						<!-- end: main_banner -->
+					</div>
+					<!--end: main_banner_wrap-->
+					<div class="icon_scroll">
+						<p>SCROLL</p>
+						<em></em>
+						<span class="bar"></span>
+					</div>
+				</div>
+				<!--end: section01-->
+				<div class="section section02">
+					<div class="inner_sol tabmo_show">
+						<div class="se02_top">
+							<img src="resource/images/common/logo_GTD.png" alt="">
+							<em class="bar"></em>
+							<div class="txt">
+								<span class="tit">GTD</span>
+								<span>의 다양한제품을 확인해보세요.</span>	
+							</div>
+						</div>
+						<div class="se02_bot">
+							<ul>
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<p class="title">FITTING LINE</p>
+										<img src="resource/images/main/section02_item01_t_fix2.jpg" alt="Fitting line"/>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<p class="title">CLUB LINE</p>
+										<img src="resource/images/main/section02_item02_t_fix2.jpg" alt="Club line"/>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<p class="title">ACCESSORIES</p>
+										<img src="resource/images/main/section02_item03_t_fix2.jpg" alt="Accessories"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<ul class="clear se02_box_pc">
+						<li class="se2_item item01">
+							<div class="item03_bg">
+								<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp" class="">
+									<p class="title">Fitting Club</p>
+									<div class="con">
+										<span class="tit">GTD</span>
+										<span>의 다양한 피팅클럽 제품을 확인해보세요.</span>
+										<em class="bar"></em>
+										<p class="more"><span>제품 더보기</span> <em class="plus"></em></p>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="se2_item item02">
+							<div class="item03_bg">
+								<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_club_driver.jsp" class="">
+									<p class="title">Club</p>
+									<div class="con">
+										<span class="tit">GTD</span>
+										<span>의 다양한 피팅클럽 제품을 확인해보세요.</span>
+										<em class="bar"></em>
+										<p class="more"><span>제품 더보기</span> <em class="plus"></em></p>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="se2_item item03">
+							<div class="item03_bg">
+								<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list_acc_bag.jsp" class="">
+									<p class="title">Accessories</p>
+									<div class="con">
+										<span class="tit">GTD</span>
+										<span>의 다양한 피팅클럽 제품을 확인해보세요.</span>
+										<em class="bar"></em>
+										<p class="more"><span>제품 더보기</span> <em class="plus"></em></p>
+									</div>
+								</a>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+				<!--end: section02-->
+				<div class="section section03">
+					<div class="inner_sol">
+						<h3 class="tit">Best Selling Products</h3>
+						<div class="slide pc_show">
+							<ul class="product_list clear">
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item01.png" alt="GTD GTUI Limited" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GTD GTUI Limited</p>	
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item02.png" alt="GT-01 Aurora" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GT-01 Aurora</p>	
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item03.png" alt="UT Black Ice" />
+										</div>
+										<div class="con">
+											<p class="product_tit">UT Black Ice</p>	
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item04.png" alt="GTD Limited200 Putter" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GTD Limited200 Putter</p>	
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item01.png" alt="GTD GTUI Limited" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GTD GTUI Limited</p>	
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="slide swiper-container tabmo_show">
+							<ul class="product_list swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item01.png" alt="GTD GTUI Limited" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GTD GTUI Limited</p>	
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item02.png" alt="GT-01 Aurora" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GT-01 Aurora</p>	
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item03.png" alt="UT Black Ice" />
+										</div>
+										<div class="con">
+											<p class="product_tit">UT Black Ice</p>	
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item04.png" alt="GTD Limited200 Putter" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GTD Limited200 Putter</p>	
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/product/product_list.jsp">
+										<div class="img">
+											<img src="resource/images/product/product_item01.png" alt="GTD GTUI Limited" />
+										</div>
+										<div class="con">
+											<p class="product_tit">GTD GTUI Limited</p>	
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+				<!--end: section03-->
+				<div class="section section04">
+					<iframe src="https://www.youtube.com/embed/CvKtudJy-_I" id="se04_iframe" title="YouTube video player" frameborder="0" scrolling="no" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style=""></iframe>
+				</div>
+				<!--end: section04-->
+				<div class="section section05">
+					<div class="inner_sol clear">
+						<div class="clear sns_linkwrap">
+							<h3>
+								<p class="tit">Official</p>
+								<p class="sub">SNS</p>
+							</h3>
+							<div class="follow">
+								<p class="">Follow Us</span>
+								<ul class="clear">
+									<li><a class="icon_sns_i" href="javascript:;" title="인스타그램 새창 열기" target="_blank"></a></li>
+									<li><a class="icon_sns_f" href="javascript:;" title="페이스북 새창 열기" target="_blank"></a></li>
+									<li><a class="icon_sns_y" href="javascript:;" title="유투브 새창 열기" target="_blank"></a></li>
+								</ul>
+							</div>
+							<div class="slidecontrol clear">
+								<a href="javascript:;" class="se05_arrow prev">Prev<em></em></a>
+								<a href="javascript:;" class="se05_arrow next">Next<em></em></a>
+							</div>
+						</div>
+						<div class="slide swiper-container">
+							<ul class="sec05_sl_outer swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="javascript:;" title="SNS 게시물 새창 열기" target="_blank">
+										<img src="resource/images/main/sns_img01.jpg" alt="sns 이미지" />
+										<span class="overbox"><i></i></span>	
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;" title="SNS 게시물 새창 열기" target="_blank">
+										<img src="resource/images/main/sns_img02.jpg" alt="sns 이미지" />
+										<span class="overbox"><i></i></span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;" title="SNS 게시물 새창 열기" target="_blank">
+										<img src="resource/images/main/sns_img03.jpg" alt="sns 이미지" />
+										<span class="overbox"><i></i></span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;" title="SNS 게시물 새창 열기" target="_blank">
+										<img src="resource/images/main/sns_img03.jpg" alt="sns 이미지" />
+										<span class="overbox"><i></i></span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;" title="SNS 게시물 새창 열기" target="_blank">
+										<img src="resource/images/main/sns_img03.jpg" alt="sns 이미지" />
+										<span class="overbox"><i></i></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--end: section05-->
+				<div class="section section06">
+					<div class="inner_sol">
+						<ul>
+							<li class="se06_item">
+								<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_contact.jsp" class="con">
+									<p class="tit">Customer Service</p>
+									<p class="sub">고객 서비스</p>
+									<div href="javascript:;" title="고객서비스 새창 열기" target="_blank" class="con_img">
+										<img src="resource/images/main/section06_img01_fix.jpg" alt="Customer Service 고객 서비스" class="pc_show"/>
+										<img src="resource/images/main/section06_img01_t_fix.jpg" alt="Customer Service 고객 서비스" class="tabmo_show"/>
+										<span class="overbox"><i></i></span>
+									</div>
+								</a>
+							</li>
+							<li class="se06_item">
+								<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_shop.jsp" class="con">
+									<p class="tit">Official Retailer</p>
+									<p class="sub">GTD 공식 대리점</p>
+									<div href="javascript:;" title="고객서비스 새창 열기" target="_blank" class="con_img">
+										<img src="resource/images/main/section06_img02_fix.jpg" alt="Official Retailer GTD 공식 대리점" class="pc_show"/>
+										<img src="resource/images/main/section06_img02_t_fix.jpg" alt="Official Retailer GTD 공식 대리점" class="tabmo_show"/>
+										<span class="overbox"><i></i></span>	
+									</div>
+								</a>
+							</li>
+							<li class="se06_item">
+								<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/sercive/customer_apply.jsp" class="con">
+									<p class="tit">Contents Title</p>
+									<p class="sub">시연 일정</p>
+									<div href="javascript:;" title="고객서비스 새창 열기" target="_blank" class="con_img">
+										<img src="resource/images/main/section06_img03_fix.jpg" alt="Contents Title 시연 일정" class="pc_show"/>
+										<img src="resource/images/main/section06_img03_t_fix.jpg" alt="Contents Title 시연 일정" class="tabmo_show"/>
+										<span class="overbox"><i></i></span>	
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="section">
+	<div class="footer_info">
+		<div class="inner_sol clear">
+			<a href="javascript:;" class="footer_logo" title="메인으로 이동">로고</a>
+			<div class="footer_info_r">
+				<div class="customer_service claer">
+					<a href="/role/service-rules.salted">이용약관</a>
+					<a href="/role/privacy-protection-policy.salted">개인정보처리방침</a>
+					<a href="/role/denial-of-unauthorized-collecting-of-email-address.salted">이메일무단수집거부</a>
+					<a href="http://www.osangtech.co.kr/project/salted/GTD/WEB-INF/jsp/role/role_return.jsp">환불/배송정책</a>
+				</div>
+				<ul class="clear">
+					<li>대표자 : 조형진&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>주소 : 서울특별시 강남구 언주로 603 서진빌딩 6층&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>사업자등록번호  : 611-81-27282&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>통신판매업 신고 : 2017-서울강남-00305호&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>대표전화 : 02-552-0815&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>고객센터 : 02-552-0815&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li>이메일 :  cs@salted.ltd&nbsp;&nbsp;</li>
+					<li>개인정보보호책임자 : 김대성&nbsp;&nbsp;</li>
+					<li>상호 : 솔티드 주식회사(Salted Co., Ltd.)</li>
+					<li>주문/배송/교환 및 환불 관련 사항은 ‘이용안내’를 참조바랍니다.</li>
+				</ul>
+				<div class="footer_site">
+					<div class="select_type02">
+						<ul id="content-d1" class="select_con content light">
+							<li><a href="javascript:;">TRIPPLE X</a></li>
+							<li><a href="javascript:;">Balle</a></li>
+							<li><a href="javascript:;">Gaerin</a></li>
+							<li><a href="javascript:;">SALETED</a></li>
+						</ul>
+						<a href="javascript:;">FAMILY SITE<span></span></a>
+					</div>
+				</div>
+				<p class="footer_capyright">
+					Copyright &copy; GTD. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
+		
+		<!-- #wrap -->
+
+
+	
